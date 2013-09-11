@@ -4,29 +4,40 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>armandrolib by vertexclique</title>
-
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   </head>
   <body>
-    <div class="wrapper">
+
       <header>
         <h1>armandrolib</h1>
         <p>Library builds for android-9, armv7a dynamic and static libs</p>
-
-        <p class="view"><a href="https://github.com/vertexclique/armandrolib">View the Project on GitHub <small>vertexclique/armandrolib</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/vertexclique/armandrolib/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/vertexclique/armandrolib/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/vertexclique/armandrolib">View On <strong>GitHub</strong></a></li>
-        </ul>
       </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/vertexclique/armandrolib" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/vertexclique/armandrolib/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/vertexclique/armandrolib/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
       <section>
         <h1>
 <a name="armandrolib" class="anchor" href="#armandrolib"><span class="octicon octicon-link"></span></a>armandrolib</h1>
@@ -51,14 +62,369 @@
 <li>libboost_signals</li>
 <li>libboost_system</li>
 <li>libboost_thread</li>
+</ul><h2>
+<a name="devices-that-possibly-work" class="anchor" href="#devices-that-possibly-work"><span class="octicon octicon-link"></span></a>Devices (that possibly work)</h2>
+
+<ul>
+<li>3Q Qoo! Surf Tablet PC TS1003T</li>
+<li>3Q Qoo! Surf Tablet PC TS1004T</li>
+<li>3Q Qoo! Surf Tablet PC TS9703T</li>
+<li>Acer beTouch E110</li>
+<li>Acer beTouch E120</li>
+<li>Acer Iconia Smart</li>
+<li>Acer Iconia Tab A100</li>
+<li>Acer Iconia Tab A101</li>
+<li>Acer Iconia Tab A500 (Packard Bell Liberty Tab, Gateway A60)</li>
+<li>Acer Iconia Tab A501 (Packard Bell Liberty Tab)</li>
+<li>Acer Liquid, Liquid A1 (untested)</li>
+<li>Acer Liquid e</li>
+<li>Acer Liquid e Ferrari SE</li>
+<li>Acer Liquid mt (metal)</li>
+<li>Acer Stream</li>
+<li>Advent Vega (P10AN01)</li>
+<li>Ainol NOVO7 Series (AllWinner)</li>
+<li>Alcatel One Touch OT-995</li>
+<li>Archos 5 Internet Tablet FS</li>
+<li>Archos 5 Internet Tablet HDS</li>
+<li>Archos 32 Internet Tablet</li>
+<li>Archos 43 Internet Tablet</li>
+<li>Archos 48 Internet Tablet</li>
+<li>Archos 70 Internet Tablet FS</li>
+<li>Archos 70 Internet Tablet HDS</li>
+<li>Archos 80 G9 FS</li>
+<li>Archos 80 G9 HDS</li>
+<li>Archos 101 G9 FS</li>
+<li>Archos 101 G9 HDS</li>
+<li>Archos 101 Internet Tablet</li>
+<li>Archos Arnova 10 G2</li>
+<li>Asus Eee Pad MeMO</li>
+<li>Asus Eee Pad Slider</li>
+<li>Asus Eee Pad Transformer (TF101)</li>
+<li>Asus Eee Pad Transformer Prime (TF201)</li>
+<li>Asus Eee Pad Transformer Prime (TF300)</li>
+<li>Asus Eee Pad Transformer Prime (TF700T)</li>
+<li>Asus Nexus 7</li>
+<li>Barnes&amp;Noble Nook Color (root required)</li>
+<li>BenQ R70</li>
+<li>BenQ R100</li>
+<li>Casio G’zOne Commando</li>
+<li>Casio G’zOne IS11CA</li>
+<li>Creative ZiiO 7</li>
+<li>Creative ZiiO 10</li>
+<li>Dell Smoke</li>
+<li>Dell Streak</li>
+<li>Dell Streak 7</li>
+<li>Dell Streak 7 Wi-Fi</li>
+<li>Dell Streak 10 Pro</li>
+<li>Dell Venue</li>
+<li>Digma iDx7</li>
+<li>Digma iDx10</li>
+<li>DNS AirTab E80</li>
+<li>DNS AirTab M70g</li>
+<li>DNS AirTab M70w</li>
+<li>DNS AirTab P100g</li>
+<li>DNS AirTab P100w</li>
+<li>Explay MID-725</li>
+<li>Fly IQ285 Turbo (SK-W170)</li>
+<li>Fujitsu STYLISTIC M532 (Pegarton Chagall, Siragon 4N, Olivetti Olipad 3)</li>
+<li>Gateway A60 (Acer ICONIA TAB A500, Packard Bell Liberty Tab)</li>
+<li>GoClever TAB S73</li>
+<li>Google Nexus One</li>
+<li>Google Nexus S</li>
+<li>Google Nexus S 4G</li>
+<li>Hannspree HANNS pad SN10T1</li>
+<li>Hannspree HANNS pad SN10T2</li>
+<li>HCL ME Tab U1</li>
+<li>HP TouchPad</li>
+<li>HTC Amaze 4G (HTC Ruby)</li>
+<li>HTC Desire</li>
+<li>HTC Desire C (A320e, HTC Golf)</li>
+<li>HTC Desire C (HTC Golf)</li>
+<li>HTC Desire HD (AT&amp;T Inspire 4G)</li>
+<li>HTC Desire S</li>
+<li>HTC Desire X (T328e, HTC Proto)</li>
+<li>HTC Desire Z</li>
+<li>HTC Droid Incredible/HTC Droid Incredible 2</li>
+<li>HTC EVO 3D</li>
+<li>HTC EVO 4G, EVO Shift 4G</li>
+<li>HTC EVO 4G LTE (MSM8960)</li>
+<li>HTC EVO Design 4G</li>
+<li>HTC Explorer (HTC Pico)</li>
+<li>HTC First (HTC Myst)</li>
+<li>HTC Flyer (P510e)</li>
+<li>HTC Glacier (T-Mobile myTouch 4G)</li>
+<li>HTC HD2 (T8585, HTC Leo 100)</li>
+<li>HTC Hero S (HTC EVO Design 4G)</li>
+<li>HTC Incredible S</li>
+<li>HTC Incredible S710d</li>
+<li>HTC Inspire 4G A9192 (HTC Stallion)</li>
+<li>HTC Jetstream (HTC Puccini)</li>
+<li>HTC Merge ADR6325 (HTC Lexikon)</li>
+<li>HTC One (HTC M7)</li>
+<li>HTC One S</li>
+<li>HTC One SV (C525c, C525e)</li>
+<li>HTC One SV AU</li>
+<li>HTC One V</li>
+<li>HTC One X</li>
+<li>HTC One X+ (S728e, HTC Endeavor C2)</li>
+<li>HTC One X+ LTE (HTC Evitare)</li>
+<li>HTC One XL (EU, Edge, AU, X325E, X325S, HTC Evita)</li>
+<li>HTC Panache 4G / Emerald (HTC Glacier)</li>
+<li>HTC Raider 4G (HTC Holiday)</li>
+<li>HTC Rezound</li>
+<li>HTC Sensation</li>
+<li>HTC Sensation 4G (HTC Pyramid)</li>
+<li>HTC Sensation XE</li>
+<li>HTC Sensation XL</li>
+<li>HTC ThunderBolt 2 4G (HTC Vigor)</li>
+<li>HTC ThunderBolt 4G</li>
+<li>HTC Wildfire A3380 (HTC Tianyi)</li>
+<li>Huawei Ascend G300 (Huawei U8815)</li>
+<li>Huawei Ideos S7 (Huawei SmaKit S7)</li>
+<li>Huawei Ideos S7 Slim</li>
+<li>Huawei Ideos X5 U8800H</li>
+<li>Huawei Ideos X6 (Huawei U9000)</li>
+<li>Huawei M886 Mercury</li>
+<li>Huawei MediaPad 7 Lite S7-931u</li>
+<li>Huawei MediaPad 10 FHD S10-101u</li>
+<li>Huawei U8850 Vision</li>
+<li>Huawei U8860 Honor</li>
+<li>iconBIT NetTAB RUNE</li>
+<li>iRU Pad Master 10.1 (MD10A)</li>
+<li>iRU Pad Master 10.1 3G (MD10A-3G)</li>
+<li>Karbonn A7+</li>
+<li>KDDI Sharp Aquos Pad (SHT21)</li>
+<li>KDDI Sharp Aquos Phone Serie (SHL21, ISW16SH)</li>
+<li>KT TAKE TACHY</li>
+<li>Kyocera Echo</li>
+<li>Lenovo IdeaPad A1</li>
+<li>Lenovo IdeaPad K1</li>
+<li>Lenovo LePhone</li>
+<li>Lenovo ThinkPad Tablet</li>
+<li>LG Connect 4G (LG MS840, LG Cayman)</li>
+<li>LG Esteem (LG MS910, LG Bryce)</li>
+<li>LG Genesis (LG US760)</li>
+<li>LG Marquee (LG LS855)</li>
+<li>LG myTouch E379</li>
+<li>LG Optimus 2X (Optimus Speed, P990, SU660)</li>
+<li>LG Optimus 3D (P920, Thrill 4G)</li>
+<li>LG Optimus Black (P970, B)</li>
+<li>LG Optimus EX (SU880)</li>
+<li>LG Optimus L3 E400</li>
+<li>LG Optimus L5 (E610)</li>
+<li>LG Optimus L5 Dual (E615)</li>
+<li>LG Optimus L5 II (E450)</li>
+<li>LG Optimus L5 II Dual (E455)</li>
+<li>LG Optimus L7 (P708G)</li>
+<li>LG Optimus L9 (P769, P760)</li>
+<li>LG Optimus LTE (SU640, LU6200)</li>
+<li>LG Optimus Mach (LU3000)</li>
+<li>LG Optimus Pad (V900, T-Mobile G-Slate)</li>
+<li>LG Optimus Q (LU2300, C710, Aloha)</li>
+<li>LG Optimus Q2 (LU8800)</li>
+<li>LG Optimus Sol (E730, Victor)</li>
+<li>LG Optimus Z (SU950, KU9500)</li>
+<li>LG Prada 3 (P940)</li>
+<li>LG Revolution (VS910)</li>
+<li>Malata ZPad T2</li>
+<li>Malata ZPad T8</li>
+<li>Malata ZPad T11</li>
+<li>Meizu M9</li>
+<li>Meizu MX (2, 2-core, Quad-Core)</li>
+<li>Micromax a110</li>
+<li>Motorola Atrix (ME860, MB861)</li>
+<li>Motorola ATRIX 2 (MB865, Edison)</li>
+<li>Motorola Atrix 4G (Olympus, MB860)</li>
+<li>Motorola Bravo (MB520, Kobe, Diablo)</li>
+<li>Motorola CHARM (MB502, ME502)</li>
+<li>Motorola Cliq 2 (MB611)</li>
+<li>Motorola Defy (MB525)</li>
+<li>Motorola Defy+ (MB526)</li>
+<li>Motorola Droid (Sholes, Tao, A855)</li>
+<li>Motorola Droid 2 (A955)</li>
+<li>Motorola Droid 2 Global (A956)</li>
+<li>Motorola Droid 2 R2-D2 (A955)</li>
+<li>Motorola Droid 3 (XT862)</li>
+<li>Motorola Droid 4 (XT894)</li>
+<li>Motorola Droid Bionic (XT865)</li>
+<li>Motorola Droid Pro (Motorola PRO, XT610)</li>
+<li>Motorola Droid RAZR (XT912, DROID HD)</li>
+<li>Motorola DROID RAZR MAXX</li>
+<li>Motorola DROID RAZR MAXX HD</li>
+<li>Motorola Droid X (MB810, MOTOROI X)</li>
+<li>Motorola Droid X2 (MB870)</li>
+<li>Motorola Electrify</li>
+<li>Motorola Flipout (Twist, MB511, Ruth)</li>
+<li>Motorola Flipside (MB508)</li>
+<li>Motorola GLAM (XT800w)</li>
+<li>Motorola Milestone (A853, Tao)</li>
+<li>Motorola Milestone 2 (A953)</li>
+<li>Motorola Milestone 3 (XT883)</li>
+<li>Motorola Milestone 3 XT860 4G</li>
+<li>Motorola Milestone XT701</li>
+<li>Motorola Milestone XT711</li>
+<li>Motorola Milestone XT720</li>
+<li>Motorola MING A1260</li>
+<li>Motorola MING XT806 (Motorola Qilin)</li>
+<li>Motorola Motoluxe (XT615)</li>
+<li>Motorola MOTO ME811</li>
+<li>Motorola MOTO MT870</li>
+<li>Motorola MOTOROI (Sholes Tablet, XT720)</li>
+<li>Motorola MOTO XT882</li>
+<li>Motorola PHOTON 4G (MB855)</li>
+<li>Motorola PRO+</li>
+<li>Motorola RAZR (XT910)</li>
+<li>Motorola Titanium (XT800c, Motorola Zeppelin)</li>
+<li>Motorola Triumph (WX435)</li>
+<li>Motorola Xoom</li>
+<li>Motorola XPRT (MB612)</li>
+<li>MTC 945 ???????</li>
+<li>NEC Medias N-04C</li>
+<li>NEC Medias WP N-06C</li>
+<li>NTT DoCoMo Sharp Aquos Pad (SH-08E)</li>
+<li>NTT DoCoMo Sharp Aquos Phone EX (SH-04E)</li>
+<li>NTT DoCoMo Sharp Aquos Phone Zeta (SH-06E)</li>
+<li>OliveSmart V-S300</li>
+<li>Panasonic Eluga</li>
+<li>Panasonic Eluga Power</li>
+<li>Pantech Breakout</li>
+<li>Pantech Burst (AT&amp;T, P9070)</li>
+<li>Pantech IM-A600S Sirius</li>
+<li>Pantech Vega Racer IM-A760S / IM-A770K / IM-A780L</li>
+<li>Ployer momo9</li>
+<li>POV Mobii Tegra Tablet</li>
+<li>Ritmix RMD-520</li>
+<li>Ritmix RMD-700</li>
+<li>Ritmix RMD-730</li>
+<li>Samsung Exhibit II 4G</li>
+<li>Samsung Galaxy Nexus</li>
+<li>Samsung Galaxy Player 4.2 (YP-GI1CW, YP-GI1CB, YP-GI1EW, YP-GI1EB)</li>
+<li>Samsung Galaxy Player 5.0 (YP-G70)</li>
+<li>Samsung Galaxy Player 5.8 (YP-GP1)</li>
+<li>Samsung Galaxy Tab</li>
+<li>Samsung Galaxy Tab 10.1</li>
+<li>Samsung GT-i8150 Galaxy W</li>
+<li>Samsung GT-i8160 Galaxy Ace 2</li>
+<li>Samsung GT-i8520 Galaxy Beam</li>
+<li>Samsung GT-i9000 Galaxy S</li>
+<li>Samsung GT-i9001 Galaxy S Plus (Galaxy S 2011 Edition)</li>
+<li>Samsung GT-i9003 Galaxy S scLCD (Galaxy SL)</li>
+<li>Samsung GT-i9010 Giorgio Armani</li>
+<li>Samsung GT-i9020 Nexus S</li>
+<li>Samsung GT-i9070 Galaxy S Advance</li>
+<li>Samsung GT-i9100 Galaxy S II (Galaxy S2, International)</li>
+<li>Samsung GT-i9103 Galaxy R (Galaxy Z)</li>
+<li>Samsung GT-i9300 Galaxy S III</li>
+<li>Samsung GT-N7000 Galaxy Note (GT-i9220)</li>
+<li>Samsung GT-N7100 Galaxy Note II</li>
+<li>Samsung GT-P1000 Galaxy Tab 7</li>
+<li>Samsung GT-P5100 Galaxy Tab 2 10.1</li>
+<li>Samsung GT-P5113 Galaxy Tab 2 10.1</li>
+<li>Samsung GT-P6200 Galaxy Tab 7 Plus</li>
+<li>Samsung GT-P6800 Galaxy Tab 7.7</li>
+<li>Samsung GT-P7500 Galaxy Tab 10.1</li>
+<li>Samsung GT-S6500 Galaxy Mini 2</li>
+<li>Samsung GT-S6500D Galaxy Mini 2</li>
+<li>Samsung GT-S7500 Galaxy Ace Plus</li>
+<li>Samsung GT-S7562 Galaxy S Duos</li>
+<li>Samsung i717 Galaxy Note</li>
+<li>Samsung i717R Galaxy Note</li>
+<li>Samsung SCH-i400 Continuum</li>
+<li>Samsung SCH-i500 Galaxy S Fascinate</li>
+<li>Samsung SCH-i500 Galaxy S Mesmerize</li>
+<li>Samsung SCH-i500 Galaxy S Showcase</li>
+<li>Samsung SCH-i510 Droid Charge 4G LTE (Samsung Stealth)</li>
+<li>Samsung SCH-i520 Droid Charge (4G LTE)</li>
+<li>Samsung SCH-R760 Galaxy S II</li>
+<li>Samsung SCH-R910 Galaxy Indulge (Forte)</li>
+<li>Samsung SCH-W899</li>
+<li>Samsung SGH-i747 Galaxy S III LTE</li>
+<li>Samsung SGH-i777 Galaxy SII (AT&amp;T)</li>
+<li>Samsung SGH-i897 Captivate</li>
+<li>Samsung SGH-I927 Captivate Glide</li>
+<li>Samsung SGH-i997 Infuse 4G</li>
+<li>Samsung SGH-T759 Exhibit 4G</li>
+<li>Samsung SGH-T769 Galaxy S Blaze 4G (T-Mobile)</li>
+<li>Samsung SGH-T849 Galaxy Tab 7.0 (T-Mobile)</li>
+<li>Samsung SGH-T959 Vibrant</li>
+<li>Samsung SGH-T989 Galaxy S II (T-Mobile Samsung Hercules)</li>
+<li>Samsung SHW-M100S Galaxy A</li>
+<li>Samsung SPH-D600 Conquer 4G</li>
+<li>Samsung SPH-D700 Epic 4G</li>
+<li>Samsung SPH-D710 Galaxy S2 Epic Touch 4G</li>
+<li>Samsung SPH-D720 Nexus S 4G</li>
+<li>Samsung SPH-M930 Transform Ultra</li>
+<li>Samsung YP-G70CW / YP-G70CB Galaxy S</li>
+<li>Saygus Vphone V1</li>
+<li>Sharp AQUOS Phone IS11H</li>
+<li>Sharp AQUOS Phone SH-12C</li>
+<li>Sharp AQUOS SH8298U 3D</li>
+<li>Sharp Galapagos 003SH, 005SH</li>
+<li>Sharp IS03</li>
+<li>Sharp IS05</li>
+<li>SKMtek Genesis (GT-7204)</li>
+<li>SoftBank Sharp Aquos Phone Xx (106SH, 203SH)</li>
+<li>Sony Ericsson Live with Walkman</li>
+<li>Sony Ericsson Xperia Acro</li>
+<li>Sony Ericsson Xperia Active (ST17i)</li>
+<li>Sony Ericsson Xperia Arc (Anzu, LT15i, LT15a)</li>
+<li>Sony Ericsson Xperia Arc S</li>
+<li>Sony Ericsson Xperia Mini (ST15i)</li>
+<li>Sony Ericsson Xperia Mini Pro (SK17i, Mango)</li>
+<li>Sony Ericsson Xperia Neo (MT15i, Hallon, XPERIA kyno)</li>
+<li>Sony Ericsson Xperia Neo V</li>
+<li>Sony Ericsson Xperia Play (R800i, Zeus)</li>
+<li>Sony Ericsson Xperia Pro (MK16i, Iyokan)</li>
+<li>Sony Ericsson Xperia Ray (ST18i, Urushi)</li>
+<li>Sony Ericsson Xperia X10 (X10i, X10a, SE Rachael)</li>
+<li>Sony Tablet P (LT22, LT22i, Nyphon)</li>
+<li>Sony Tablet S (SGPT111GB)</li>
+<li>Sony Xperia E (C1504, C1505, Sony Nanhu SS)</li>
+<li>Sony Xperia E dual (C1604, C1605, Sony Nanhu DS)</li>
+<li>Sony Xperia go (ST27, ST27i, Sony Lotus)</li>
+<li>Sony Xperia J (ST26, ST26a, ST26iSony JLo)</li>
+<li>Sony Xperia Miro (ST23, ST23a, ST23i, Sony Mesona)</li>
+<li>Sony Xperia P (LT22, LT22i Sony Nyphon)</li>
+<li>Sony Xperia S</li>
+<li>Sony Xperia SL (LT26ii)</li>
+<li>Sony Xperia Sola (MT27, MT27i, Sony Pepper)</li>
+<li>Sony Xperia SP (M35c, Sony HuaShan Xin)</li>
+<li>Sony Xperia SP (M35i, C5303, M35h, C5302, Sony HuaShan)</li>
+<li>Sony Xperia Tablet S</li>
+<li>Sony Xperia Tablet Z (C6907, Sony Pollux)</li>
+<li>Sony Xperia Tablet Z LTE (SGP321, Sony Pollux Gina)</li>
+<li>Sony Xperia Tipo (ST21i, ST21a, Tapioca)</li>
+<li>Sony Xperia U (ST25i, Kumquat)</li>
+<li>Sony Xperia Z (C6616, L36a, C6606, Sony Yuga Rex)</li>
+<li>Sony Xperia Z (L36i, C6603, L36h, C6602, Sony Yuga)</li>
+<li>Sony Xperia ZL (L35a, C6506, Sony Odin Rimy)</li>
+<li>Sony Xperia ZL (L35h, C6502, Sony Odin Rita)</li>
+<li>Sony Xperia ZQ (L35i, C6503, Sony Odin Gina)</li>
+<li>Sony Xperia ZR (LTE, M36i, C5503 , M36h C5502, Sony Dogo*)</li>
+<li>Spice Mi-355 Stellar Craze</li>
+<li>T-Mobile G2 (HTC Desire Z, A7272)</li>
+<li>T-Mobile G2x (LG Star)</li>
+<li>T-Mobile myTouch 4G (HTC Panache)</li>
+<li>T-Mobile myTouch 4G Slide (HTC Doubleshot)</li>
+<li>T-Mobile Sidekick 4G</li>
+<li>Tomtec Excellent 7</li>
+<li>Toshiba Folio 100</li>
+<li>Toshiba REGZA IS04</li>
+<li>Toshiba REGZA Phone T-01C</li>
+<li>Viewsonic gTablet</li>
+<li>ViewSonic V430</li>
+<li>ViewSonic ViewPad 4 (Huawei U9000 Ideos X6, Huawei Ascend X, Olive Smart VS300, WellcoM A99, Cherry Mobile Magnum HD)</li>
+<li>Xiaomi MI-ONE</li>
+<li>Ziss Soho 3</li>
+<li>ZTE Avid 4G (N9120) </li>
 </ul>
       </section>
       <footer>
-        <p>This project is maintained by <a href="https://github.com/vertexclique">vertexclique</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p>Project maintained by <a href="https://github.com/vertexclique">vertexclique</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
